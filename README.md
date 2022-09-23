@@ -8,7 +8,7 @@ If you have a rooted Philips Hue Bridge Bridge 2.x you can, probably, run the pa
 * `ssh` and `scp` access to your Philips Hue Bridge
 
 ## Installation
-From this Git repository, transfer (e.g. using `scp`) the contents of the `bin` and `etc` directories to the similarly named `/bin` and `/etc` folder.
+From this Git repository, transfer (e.g. using `scp`) the contents of the `bin` and `etc` directories to the similarly named `/bin` and `/etc` folder of your Philips Hue Bridge.
 
 `ssh` to your Philips Hue Bridge and run the following commands to properly set the permissions for the files:  
 ```
