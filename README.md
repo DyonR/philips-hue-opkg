@@ -34,7 +34,7 @@ GNU Wget 1.20.3 built on linux-gnu.
   
 ## Tested Philips Hue Bridge software versions
 <details>
-<summary>1953090030</summary>
+<summary>1953090030 (August 22, 2022)</summary>
 
 ```
 DISTRIB_ID='OpenWrt'
