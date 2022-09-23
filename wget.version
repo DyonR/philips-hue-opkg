@@ -1,0 +1,57 @@
+GNU Wget 1.20.3 built on linux-gnu.
+
+-cares +digest -gpgme +https +ipv6 -iri +large-file -metalink -nls 
++ntlm +opie -psl +ssl/openssl 
+
+Wgetrc: 
+    /etc/wgetrc (system)
+Compile: 
+    mips-openwrt-linux-musl-gcc -DHAVE_CONFIG_H 
+    -DSYSTEM_WGETRC="/etc/wgetrc" -DLOCALEDIR="/usr/share/locale" -I. 
+    -I../lib -I../lib 
+    -I/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/include 
+    -I/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/include 
+    -I/builder/shared-workdir/build/sdk/staging_dir/toolchain-mips_24kc_gcc-7.5.0_musl/usr/include 
+    -I/builder/shared-workdir/build/sdk/staging_dir/toolchain-mips_24kc_gcc-7.5.0_musl/include/fortify 
+    -I/builder/shared-workdir/build/sdk/staging_dir/toolchain-mips_24kc_gcc-7.5.0_musl/include 
+    -I/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/include 
+    -I/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/include 
+    -DNDEBUG -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc 
+    -fno-caller-saves -fno-plt -fhonour-copts 
+    -Wno-error=unused-but-set-variable -Wno-error=unused-result 
+    -msoft-float -mips16 -minterlink-mips16 
+    -iremap/builder/shared-workdir/build/sdk/build_dir/target-mips_24kc_musl/wget-ssl/wget-1.20.3:wget-1.20.3 
+    -Wformat -Werror=format-security -fstack-protector 
+    -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro 
+Link: 
+    mips-openwrt-linux-musl-gcc 
+    -I/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/include 
+    -I/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/include 
+    -DNDEBUG -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc 
+    -fno-caller-saves -fno-plt -fhonour-copts 
+    -Wno-error=unused-but-set-variable -Wno-error=unused-result 
+    -msoft-float -mips16 -minterlink-mips16 
+    -iremap/builder/shared-workdir/build/sdk/build_dir/target-mips_24kc_musl/wget-ssl/wget-1.20.3:wget-1.20.3 
+    -Wformat -Werror=format-security -fstack-protector 
+    -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro 
+    -L/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/lib 
+    -L/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/lib 
+    -L/builder/shared-workdir/build/sdk/staging_dir/toolchain-mips_24kc_gcc-7.5.0_musl/usr/lib 
+    -L/builder/shared-workdir/build/sdk/staging_dir/toolchain-mips_24kc_gcc-7.5.0_musl/lib 
+    -znow -zrelro 
+    -L/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/lib 
+    -lpcre 
+    /builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/lib/libssl.so 
+    /builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/lib/libcrypto.so 
+    -ldl 
+    -L/builder/shared-workdir/build/sdk/staging_dir/target-mips_24kc_musl/usr/lib 
+    -lz ftp-opie.o openssl.o http-ntlm.o ../lib/libgnu.a 
+
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later
+<http://www.gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
+Please send bug reports and questions to <bug-wget@gnu.org>.
