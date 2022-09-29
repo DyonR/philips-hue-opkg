@@ -32,7 +32,7 @@ GNU Wget 1.20.3 built on linux-gnu.
 +ntlm +opie -psl +ssl/openssl 
 ```  
   
-## Tested Philips Hue Bridge software versions
+## Tested [Philips Hue Bridge software versions](https://www.philips-hue.com/en-us/support/release-notes/bridge)
 <details>
 <summary>1953188020 (September 19, 2022)</summary>
 
