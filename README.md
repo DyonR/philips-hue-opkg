@@ -17,14 +17,14 @@ chmod -R 644 /etc/opkg/distfeeds.conf /etc/opkg/keys
 ```
 
 If everything went correctly, you can now run `opkg update` to update the list of available packages and install any package that is on the list.  
-As example, to install `htop` you run `opkg instlal htop`. When finished, `htop` is installed and can be run.
+As example, to install `htop` you run `opkg install htop`. When finished, `htop` is installed and can be run.
   
 ## Binary information
 ### opkg
 `opkg version c5dccea956b8be14eabf6ff69b331a3e9ac36749 (2021-01-31)`
 
 ### wget
-For the full `wget --version` output, please check out `wget.version`.
+For the full `wget --version` output, please check out [`wget.version`](https://github.com/DyonR/philips-hue-okpg/blob/main/wget.version).
 ``` 
 GNU Wget 1.20.3 built on linux-gnu.
 
